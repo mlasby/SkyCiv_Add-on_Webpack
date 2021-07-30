@@ -108,22 +108,21 @@ The following definitions apply for `events.config.json`:
 
 Certain variables should not be used as they might interfere with global variables in S3D. This will be removed in a future update, however for now the following variables should be avoided:
 
-:-----------------------------
-`nodes;`
-`elements;`
-`sections;`
-`supports;`
-`pointLoads;`
-`distributedLoads;`
-`moments;`
-`member_prestress_loads;`
-`pressures;`
-`area_loads;`
-`area_loads_DLs;`
-`area_loads_PLs;`
-`loadCombos;`
-`settlements;`
-`plates;`
-`meshedPlates;`
-`groups;`
-`filters;`
+* `nodes;`
+* `elements;`
+* `sections;`
+* `supports;`
+* `pointLoads;`
+* `distributedLoads;`
+* `moments;`
+* `member_prestress_loads;`
+* `pressures;`
+* `area_loads;`
+* `area_loads_DLs;`
+* `area_loads_PLs;`
+* `loadCombos;`
+* `settlements;`
+* `plates;`
+* `meshedPlates;`
+* `groups;`
+* `filters;`
