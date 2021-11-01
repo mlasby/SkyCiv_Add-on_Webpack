@@ -4,8 +4,8 @@ export function onAppLaunch() {
 	console.info('App successfully launched.');
 
 
-	document.getElementById('demo').innerHTML = 'Waiting for you to click a button!';
-	
+	document.getElementById('demo-date').innerHTML = 'Waiting for you to click a button!';
+
 	// Assign functions to the buttons by the button ID
 
 	document.getElementById('btnShowDate').onclick = onShowDate;
